@@ -26,7 +26,7 @@ public class TakesScrnshot_Task {
 		WebElement ConfirmPswd = driver.findElement(By.xpath("//input[@name='re_password']"));
 		ConfirmPswd.sendKeys("Ri230@#");
 		WebElement FullName = driver.findElement(By.xpath("//input[contains(@id,'full')]"));
-		FullName.sendKeys("Rithamika");
+		FullName.sendKeys("Renuga");
 		WebElement Email = driver.findElement(By.xpath("(//input[@type='text'])[3]"));
 		Email.sendKeys("Rithu@yahoo.com");
 		
