@@ -20,7 +20,7 @@ public class TakesScrnshot_Task {
 		driver.manage().window().maximize();
 		
 		WebElement Username = driver.findElement(By.xpath("//input[@id='username']"));
-		Username.sendKeys("Rithu");
+		Username.sendKeys("Renu");
 		WebElement Paswd = driver.findElement(By.xpath("//input[@name='password']"));
 		Paswd.sendKeys("Ri230@#");
 		WebElement ConfirmPswd = driver.findElement(By.xpath("//input[@name='re_password']"));
